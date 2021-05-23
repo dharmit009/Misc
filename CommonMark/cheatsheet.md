@@ -1,6 +1,6 @@
 # Cheatsheet
 
-*NOTE*: This is a quick cheatsheet for common markdown it may not include all the features. 
+**NOTE**: This is a quick cheatsheet for common markdown it may not include all the features. 
 
 # Heading 1
 \# Heading 1
@@ -19,7 +19,7 @@
 
 ## Bold: 
 
-\*\* -> Bold.\*\*
+\*\*Bold.\*\*
 
 **Bold.**
 
@@ -32,9 +32,10 @@
 ## Reference links:
 \[Duckduckgo\]\[duck\]
  
-\[duck\]:\<https://duckduckgo.com\>
+\[duck\]:<https://duckduckgo.com>
 
-[Duckduckgo][duck]
+Test Link: [Duckduckgo][duck]
+
 [duck]: <https://duckduckgo.com>
 
 ## blockquote
@@ -47,9 +48,9 @@
 
 ### Unordered List: 
 
-\* Item 1
-\* Item 2
-\* Item 3
+\* Item 1 \
+\* Item 2 \
+\* Item 3 
 
 * Item 1
 * Item 2
@@ -57,9 +58,9 @@
 
 ### Ordered List: 
 
-\1. Item 1
-\1. Item 2
-\1. Item 3
+\1. Item 1 \
+\1. Item 2 \
+\1. Item 3 
 
 1. Item 1
 1. Item 2
@@ -69,20 +70,26 @@
 
 \`printf("Hello world");\`
 
+Example: 
 `printf("Hello world");`
 
 ## Code block. 
+
+\`\`\` \
+printf("Hello world"); \
+printf("From .md"); \
+\`\`\`
 
 ```
 # code block. 
 printf("Hello world");
 printf("From .md");
-
 ```
 
 ## Horizontal line: 
 
 \-\-\-
+
 --- 
 
 
