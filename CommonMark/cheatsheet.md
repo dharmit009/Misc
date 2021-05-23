@@ -1,5 +1,5 @@
 # Cheatsheet
-![Image][common]
+![commonMarkImage][common]
 
 [common]:./commonMark.png
 
@@ -65,6 +65,8 @@ Test Link: [Duckduckgo][duck]
 > \1. Item 2 \
 > \1. Item 3 
 
+> ***p.s:*** The number should be 1. itemName. 1. itemName2 not \1. itemName.
+
 
 1. Item 1
 1. Item 2
@@ -93,6 +95,7 @@ printf("From .md");
 ## Horizontal line: 
 ---
 ---
+
 > \-\-\-
 
 ---
@@ -104,7 +107,7 @@ printf("From .md");
 
 ## Inline Images:
 
-\!\[Image\]\(commonMark.png\) \
+> \!\[Image\]\(commonMark.png\)
 
 ![Image](./commonMark.png)
 
@@ -114,5 +117,4 @@ printf("From .md");
 > ***Note: the top most image is a reference linked image.***
 
 So this compeletes my markdown journey. Now its time to learn some linux command line. See you there. 
-
 
