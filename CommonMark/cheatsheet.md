@@ -2,16 +2,14 @@
 
 *NOTE*: This is a quick cheatsheet for common markdown it may not include all the features. 
 
-## Headings: 
-
-\# Heading 1
 # Heading 1
+\# Heading 1
 
-\## Heading 2
 ## Heading 2
+\## Heading 2
 
-\### Heading 3
 ### Heading 3
+\### Heading 3
 
 ## Italics: 
 
@@ -32,10 +30,16 @@
 [Duckduckgo](www.duckduckgo.com)
 
 ## Reference links:
+\[Duckduckgo\]\[duck\]
+ 
+\[duck\]:\<https://duckduckgo.com\>
+
+[Duckduckgo][duck]
+[duck]: <https://duckduckgo.com>
 
 ## blockquote
 
-/> This is a blockquote. 
+\> This is a blockquote. 
 
 > This is a blockquote. 
 
@@ -61,12 +65,25 @@
 1. Item 2
 1. Item 3
 
-### Inline code. 
+## Inline code. 
 
+\`printf("Hello world");\`
 
+`printf("Hello world");`
 
+## Code block. 
 
+```
+# code block. 
+printf("Hello world");
+printf("From .md");
 
+```
+
+## Horizontal line: 
+
+\-\-\-
+--- 
 
 
 
