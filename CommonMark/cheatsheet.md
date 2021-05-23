@@ -1,11 +1,13 @@
 # Cheatsheet
 
-*NOTE: This is a quick cheatsheet for common markdown it may not include all the features. 
+*NOTE*: This is a quick cheatsheet for common markdown it may not include all the features. 
 
 ## Headings: 
 
 /# Heading 1
+
 /## Heading 2
+
 /### Heading 3
 
 # Heading 1
