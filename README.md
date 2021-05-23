@@ -2,6 +2,8 @@
 
 1. Vim. [In Progress]
 1. Git. [In Progress]
+1. Python. 
+1. POSIX Scripting. 
 1. Golang. 
 1. Docker. 
 1. ~~Common Mark.~~ [done]
