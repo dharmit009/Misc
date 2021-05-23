@@ -3,7 +3,8 @@
 1. Vim. 
 1. Git.
 1. Golang. 
-1. Common Mark. 
+1. ~~Common Mark.~~
+1. My own Arch Linux.
 1. Linux Command Line. 
 1. Pentration Testing. 
 
