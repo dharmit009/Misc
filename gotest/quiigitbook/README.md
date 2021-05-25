@@ -4,4 +4,4 @@ GO lang is one of the most promising language. This language is very strictly ty
 # Resources: 
 Here is the one which i am using right now.
 
-[Go with tests]: <https://quii.gitbook.io/learn-go-with-tests/go/fundamentals>
+[Go with tests](https://quii.gitbook.io/learn-go-with-tests)
