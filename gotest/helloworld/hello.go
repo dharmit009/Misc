@@ -15,17 +15,35 @@ func Hello(name string, lang string) string {
 		name = "world"
 	} // if
 
-	if lang == spanish {
-		return spanishHolaPrefix + name
+	//	if lang == spanish {
+	//		return spanishHolaPrefix + name
+	//
+	//	} //if
+	//
+	//	if lang == french {
+	//		return frenchBonjourPrefix + name
+	//
+	//	} //if
+	//
+	//	return englishHelloPrefix + name
 
-	} //if
+	// converted the entire blokc to switch case.
 
-	if lang == french {
-		return frenchBonjourPrefix + name
+	return greetingPrefix(lang) + name
 
-	} //if
+}
 
-	return englishHelloPrefix + name
+func greetingPrefix(lang string) (prefix string) {
+
+	switch lang {
+	case french:
+		prefix = frenchBonjourPrefix
+	case spanish:
+		prefix = spanishHolaPrefix
+	default:
+		prefix = englishHelloPrefix
+	}
+	return
 }
 
 func main() {
