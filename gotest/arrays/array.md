@@ -31,3 +31,33 @@ They are nothing arrays without limitation of size rest everything is just same 
 
 Can you spot the difference ?
 > if not just see the size box its empty. 
+
+## What are variadic functions ? 
+
+Variadic functions can be called with any number of trailing arguments. 
+For Example: `fmt.Println("")` is a common variadic function as the input can be anything inside the quotes. 
+
+For Example: 
+``` 
+package main
+
+import "fmt"
+
+func sum(nums ...int) {
+    fmt.Print(nums, " ")
+    total := 0
+    for _, num := range nums {
+        total += num
+    }
+    fmt.Println(total)
+}
+
+func main() {
+
+    sum(1, 2)
+    sum(1, 2, 3)
+
+    nums := []int{1, 2, 3, 4}
+    sum(nums...)
+}
+``` 

@@ -7,3 +7,8 @@ func Sum(numbers []int) int {
 	} // for loop
 	return sum
 }
+
+func SumAll(num1) (sum []int) {
+
+	return
+}
