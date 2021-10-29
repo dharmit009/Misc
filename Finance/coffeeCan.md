@@ -50,7 +50,9 @@ Formula:
 
 # Tools to use: 
 
-1. Screener. 
+- (Screener.)[https://screener.in/)]
+- (Tickertape.)[https://tickertape.in/)]
+- (Zerodha.)[https://zerodha.com/)]
 
 # Steps: 
 1. revenue growth 5years. 
