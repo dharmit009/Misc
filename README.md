@@ -14,7 +14,7 @@
 ### Compeleted: 
 1. ~~Common Mark.~~ [Practice Needed]
 
-## < My Course List >
+## My Course List
 
 ### Remaining: 
 
@@ -25,7 +25,7 @@
 ### Compeleted: 
 ` NONE `
 
-## My Project List:  
+## My Project List 
 
 ### Remaining: 
 1. Any File encrypter. 
