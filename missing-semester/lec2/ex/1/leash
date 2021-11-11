@@ -1,0 +1,3 @@
+ls -lhat --color=auto
+
+# t sorts using time. 
