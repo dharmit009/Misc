@@ -1,11 +1,11 @@
 # My Learning List. 
 
-1. Vim. [In Progress]
 1. Git. [In Progress]
-1. Python. 
+1. Python. [In Progress]
 1. Golang. 
 1. Docker. 
 1. Finance. 
+1. Data Science. 
 1. POSIX Scripting. 
 1. My own Arch Linux.
 1. Pentration Testing. 
@@ -13,6 +13,7 @@
 
 ### Compeleted: 
 1. ~~Common Mark.~~ [Practice Needed]
+1. ~~Vim.~~ [Vimtutor Completed]
 
 ## My Course List
 
