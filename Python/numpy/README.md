@@ -514,22 +514,33 @@ print(a[3,:]);
 ## Some more things to learn and checkout: 
 
 sum();
+
 sum(axis=0); # axis zero is x axis
+
 sum(axis=1); # axis one is y axis 
+
 mean(); 
+
 std(); //standard deviation 
+
 var(); //variance
+
 arange() 
 
 **vectors** 
+
 vectors --> used to apply common operations 
+
 a(0,1,2,3); 
+
 a + 10; 
+
 a(10, 11,12,13); 
+
 ``` 
 a = np.arange(4); 
-``` 
 a = np.random.randint(100, size=(3,3))
+``` 
 
 ### Misc: 
 
