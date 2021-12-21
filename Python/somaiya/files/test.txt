@@ -1,0 +1,11 @@
+binaryTree
+excercise
+files
+forLoop
+functions
+ifelse
+lists
+operator
+recursion
+strings
+whileLoop

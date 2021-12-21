@@ -13,6 +13,14 @@ print("r is used for carriage return");
 print(d);
 print("Length of String A: ", len(a));
 
+# slicing 
+# start from 0 till 4 but not 4. 
+print("slicing");
+print(a[0:4]);
+print(a[:4]);
+print(a[5:]);
+print(a[:]);
+
 E = "Ashish"
 s = 10000
 print(type(s));
@@ -21,3 +29,10 @@ print("Employee Name: %s, Salary: %s" % (E,s));
 
 ## Error To Be Fixed: 
 ## Employee Name: %s, Salary: %s Ashish 10000
+
+
+x = "hello"
+y = "world"
+z = x + " " + y
+
+print('h' in x)

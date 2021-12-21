@@ -29,3 +29,6 @@ print("d[-3][-1] :", d[-3][-1])
 print("e = d[-3]")
 e = d[-3]
 print(e)
+
+z = a + b
+print(z)
