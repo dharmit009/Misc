@@ -1,9 +1,9 @@
-
+# A function to display histogram ...
 def display_histogram(myData):
     for key, value in myData.items():
-        print("|Name:", key,"\t| Value:", value, "|", end="\t\t")
+        print("|Name:", key,"\t| Value:", value, "|", end="\t")
         for x in range(value):
-            print("*", end="")
+            print("*", end=" ")
         print("")
     print("")
 
@@ -22,6 +22,8 @@ display_histogram(a)
 b = a.copy();
 b["Apple"] = 5; 
 b["Kiwi"] = 9; 
+
+# TODO: How to sort a dictionary. 
 
 print("Displaying Histogram B: ")
 display_histogram(b)
