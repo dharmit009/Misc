@@ -1,4 +1,3 @@
-from time import sleep
 
 def display_histogram(myData):
     for key, value in myData.items():
@@ -26,8 +25,5 @@ b["Kiwi"] = 9;
 
 print("Displaying Histogram B: ")
 display_histogram(b)
-
-
-
 
 
