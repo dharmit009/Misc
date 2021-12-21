@@ -21,3 +21,7 @@ git log
 git commit -a -m "message"
 
 git push -u origin master 
+
+git fetch 
+
+git pull
