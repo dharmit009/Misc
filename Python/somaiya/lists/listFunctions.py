@@ -26,10 +26,10 @@ a.extend(c)
 del a[0:3]
 print("Updated a after del with slice: ", a)
 
-print("a:" a);
+print("a:", a);
 print("a.remove(value which you want to delete: ") 
 a.remove(1) 
-print("a:" a);
+print("a:", a);
 
 # try:
 #     b.append(12)
