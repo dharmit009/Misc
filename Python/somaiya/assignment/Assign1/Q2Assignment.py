@@ -21,13 +21,17 @@ Hint -->import random
 
 """
 import random
-answerRequired = random.randint(1,10);
+answerRequired = random.randint(1,100); ## The winning answer is stored in this variable. 
 player_chances = 3; 
 guess = None;
 
+## Let us print the winnig answer before even guessing it .... 
+print("Let us print the winnig answer before even guessing it .... ");
+print("Winning Answer: " , answerRequired);
+
 while player_chances != 0:
     print("Remaining Chances: ", player_chances);
-    guess = int(input("Enter a number between [1-10]: "));
+    guess = int(input("Enter a number between [1-100]: "));
     if guess == answerRequired:
         print("You have won the game ...");
         break;
