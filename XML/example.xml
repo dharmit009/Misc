@@ -1,0 +1,27 @@
+# Personal xml
+<person>
+  <name> Walter </name>
+  <phone type="intl"> 
+    +1 123 345 8888
+  </phone> 
+  <email hide="yes"/>
+</person> 
+
+# Complex xml
+<people> 
+  <person>
+    <name> Walter </name>
+    <phone type="intl"> 
+      +1 123 345 8888
+    </phone> 
+    <email hide="yes"/>
+  </person> 
+
+  <person>
+    <name> Walter </name>
+    <phone type="intl"> 
+      +1 123 345 8888
+    </phone> 
+    <email hide="yes"/>
+  </person> 
+</people> 
