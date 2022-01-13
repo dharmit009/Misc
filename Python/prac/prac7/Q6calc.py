@@ -10,38 +10,46 @@ def menu():
     5. Exit. 
     """; 
     print(message);
+    choice = int(input("Enter number choice: "));
+    return choice
 
-def calc():
-    breaker = False;
-    while breaker != True: 
-        menu();
-        choice = int(input("Enter number choice: "));
-        if choice < 5:
+def getInput():
             n1 = int(input("Enter Number1: "));
             n2 = int(input("Enter Number2: "));
-            if choice == 1:
+            return n1 , n2; 
+
+def calc():
+
+    breaker = False;
+
+    while breaker != True: 
+        choice = menu();
+
+        if choice < 6 or choice > 0:
+            if choice == 5:
+                breaker = True;
+            elif choice == 1:
+                n1 , n2 = getInput()
                 out= n1 + n2;
                 print("Addition: ", out)
             elif choice == 2:
+                n1 , n2 = getInput()
                 out= n1 - n2;
                 print("Subtraction: ", out)
             elif choice == 3:
+                n1 , n2 = getInput()
                 out= n1 * n2;
                 print("Mulitplication: ", out)
             elif choice == 4:
+                n1 , n2 = getInput()
                 out= n1 / n2;
                 print("Division: ", out)
-            else: 
-                print("Please enter choose a valid option.");
-        elif choice > 6: 
-            repeat = input("Do you want to continue? [y/n]: ");
-            if repeat == 'n':
-                breaker = False;
         else: 
-            breaker = False;
+            print("Invalid Input");
 
-
-
+        inn = input("Do you want to run it again? [y/n]: "); 
+        if inn == 'n':
+            breaker = True; 
 
 calc()
     
