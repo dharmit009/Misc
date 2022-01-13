@@ -1,0 +1,166 @@
+#+TITLE: Org Mode Basics In Doom Emacs !!!
+#+Description: You can put anything here whatever you like.
+#+Author: Dharmit Shah
+
+* Table Of Contents: :toc:
+- [[#getting-started-in-org][Getting Started in org:]]
+- [[#headings-from-h1-to-h6][Headings from <h1> to <h6>:]]
+- [[#level-1][Level 1]]
+  - [[#level-2][Level 2]]
+- [[#heading-toogle][Heading Toogle:]]
+  - [[#org-toggle-heading-spc-m-h][org-toggle-heading: spc-m-h]]
+  - [[#org-toggle-item-spc-m-h][org-toggle-item: spc-m-h]]
+- [[#unordered-list][Unordered List:]]
+- [[#folding-unfolding-and-rotation-commands][Folding, Unfolding and Rotation commands:]]
+  - [[#rotate-current-subtree-between-states-tab][Rotate Current subtree between states: TAB.]]
+  - [[#rotate-entire-buffer-between-states-shift-tab][Rotate Entire buffer between states: SHIFT-TAB.]]
+  - [[#close-a-tree-zc][Close a tree: zc]]
+  - [[#open-a-tree-zo][Open a tree: zo]]
+  - [[#fold-everything-zm][Fold everything: zM]]
+  - [[#unfold-everything-zr][unfold everything: zR]]
+- [[#heading-levels-shortcuts][Heading Levels Shortcuts:]]
+  - [[#insert-new-heading-with-same-level-ctrl-ret][Insert new heading with same level: CTRL-RET]]
+  - [[#promote-or-demote-heading-alt--hl][Promote Or Demote heading: ALT + h/l]]
+  - [[#promote-or-demote-heading-with-subtree-alt--shift--hl][Promote Or Demote heading with subtree: ALT + SHIFT + h/l]]
+  - [[#move-list-item-updown-with-subtree-alt--jk][Move List item up/down with subtree: ALT + j/k]]
+  - [[#move-list-item-updown-without-subtree-alt--shift--jk][Move List item up/down without subtree: ALT + SHIFT + j/k]]
+- [[#advance-editing][Advance Editing:]]
+  - [[#select-an-element-vae][select an element: vae]]
+  - [[#delete-an-element-dae][delete an element: dae]]
+  - [[#select-a-subtree-var][select a subtree: vaR]]
+  - [[#delete-subtree-dar][delete subtree: daR]]
+  - [[#yank-subtree-yir][yank subtree: yiR]]
+- [[#insert-snippets][Insert Snippets:]]
+  - [[#shortcut-spc-i-s][Shortcut: SPC-i-s]]
+- [[#todo][TODO]]
+  - [[#example-1][Example 1.]]
+  - [[#example-2][Example 2.]]
+  - [[#to-add-any-state-shift-any-arrow][To Add Any State: Shift-<ANY>-Arrow.]]
+  - [[#to-remove-any-state-shift-left-arrow][To Remove Any State: Shift-LEFT-Arrow.]]
+  - [[#to-toggle-various-states-at-once-space-m-t][To Toggle Various States At Once: SPACE-m-t.]]
+- [[#to-create-a-checkbox][To create a checkbox:]]
+  - [[#tally-33-13][Tally:]]
+- [[#org-schedule][Org Schedule:]]
+  - [[#shortcut-space-m-d-s][Shortcut: SPACE-m-d-s]]
+  - [[#add-file-to-org-agenda-front-ctrl-c-][Add File To Org Agenda Front: CTRL-C-[]]
+  - [[#org-agenda-space-o-a][Org Agenda: Space-o-a]]
+- [[#tables][Tables:]]
+  - [[#table-motions][Table Motions:]]
+  - [[#table-operations][Table Operations:]]
+
+* Getting Started in org:
+To get started, you should probably start by reading
+the org mode manual with M-x org-info or ALT-x.
+
+* Headings from <h1> to <h6>:
+* Level 1
+** Level 2
+*** Level 3
+**** Level 4
+***** Level 5
+****** Level 6
+
+* Heading Toogle:
+** org-toggle-heading: spc-m-h
+** org-toggle-item: spc-m-h
+
+* Unordered List:
++ Unordered List Item 1.
++ Unordered List Item 2.
+
+- Unordered List Item 1.
+- Unordered List Item 2.
+
+1. Ordered List Item 1.
+1. Ordered List Item 2.
+
+* Folding, Unfolding and Rotation commands:
+** Rotate Current subtree between states: TAB.
+** Rotate Entire buffer between states: SHIFT-TAB.
+** Close a tree: zc
+** Open a tree: zo
+** Fold everything: zM
+** unfold everything: zR
+
+* Heading Levels Shortcuts:
+** Insert new heading with same level: CTRL-RET
+** Promote Or Demote heading: ALT + h/l
+** Promote Or Demote heading with subtree: ALT + SHIFT + h/l
+** Move List item up/down with subtree: ALT + j/k
+** Move List item up/down without subtree: ALT + SHIFT + j/k
+
+* Advance Editing:
+** select an element: vae
+** delete an element: dae
+** select a subtree: vaR
+** delete subtree: daR
+** yank subtree: yiR
+
+* Insert Snippets:
+** Shortcut: SPC-i-s
+*** Current Time: Sat Nov 27 17:59:56 2021
+*** bang: #!/usr/bin/env bash
+*** MIT License:
+The MIT License (MIT)
+
+Copyright (c) 2021 Dharmit Shah
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+* TODO
+** TODO Example 1.
+** TODO Example 2.
+** To Add Any State: Shift-<ANY>-Arrow.
+** To Remove Any State: Shift-LEFT-Arrow.
+** To Toggle Various States At Once: SPACE-m-t.
+
+* To create a checkbox:
+You can change state of checkbox by simply pressing Return or Enter key in normal mode.
+To run a live rally all you need to enter is [] with / or % in between.
+** Tally: [33%] [1/3]
+
+- [ ] Check List 1.
+- [-] Check List 2.
+- [X] Check List 3.
+
+* Org Schedule:
+** Shortcut: SPACE-m-d-s
+** Add File To Org Agenda Front: CTRL-C-[
+** Org Agenda: Space-o-a
+
+
+* Tables:
+The delimiter for table is `|` symbol.
+| Alphabet | Name   | Place     | Animal | Thing    |
+| A        | Ankit  | America   | Ankit  | And gate |
+| B        | Bina   | Barcelona | Bat    | Bat      |
+| C        | Cassie | Canada    | Cat    | Crayons  |
+
+** Table Motions:
+*** Move Current Column Right ➡ : ALT-l
+*** Move Current Column Left ⬅ : ALT-h
+*** Move Current Row Above ⬆ : ALT-k
+*** Move Current Row Below ⬇ : ALT-j
+
+** Table Operations:
+*** Delete Current Column: ALT-SHIFT-h
+*** Delete Current Row: ALT-SHIFT-k
+*** Insert New Column: ALT-SHIFT-l
+*** Insert New Row: ALT-SHIFT-j
