@@ -25,3 +25,9 @@ for x, y in sampleDict.items():
     if x == "name" or x == "salary":
         print(x, ": ", y)
     
+# Work around 
+keys = ['name', 'salary']
+res = dict()
+for k in keys: 
+    res.update({k:sampleDict[k]});
+print(res)

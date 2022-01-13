@@ -1,5 +1,5 @@
 from rich.console import Console
-from rich.console import inspect
+import inspect
 c = Console();
 
 def difference(message): 
