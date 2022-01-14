@@ -25,8 +25,7 @@ def calc():
     while breaker != True: 
         choice = menu();
 
-        # FIXME: Use the math range notation instead. i.e 0 < choice < 6: 
-        if choice < 6 and choice > 0:
+        if  0 < choice < 6 :
             if choice == 5:
                 breaker = True;
             elif choice == 1:
