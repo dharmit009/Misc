@@ -25,7 +25,7 @@ def calc():
     while breaker != True: 
         choice = menu();
 
-        if choice < 6 or choice > 0:
+        if choice < 6 and choice > 0:
             if choice == 5:
                 breaker = True;
             elif choice == 1:
@@ -45,7 +45,7 @@ def calc():
                 out= n1 / n2;
                 print("Division: ", out)
         else: 
-            print("Invalid Input");
+            print("Error! [E] : Invalid Input");
 
         inn = input("Do you want to run it again? [y/n]: "); 
         if inn == 'n':
