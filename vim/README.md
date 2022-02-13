@@ -88,11 +88,39 @@ if (foo){
 "bp --> Paste the contents of reg b 
 then you can edit it !!!
 
-# Advance Motions: 
 
+## Spell Checks within vim. 
 
+One of the most under rated features of vim is it has inbuilt spell
+checking system. To enable this feature all you need to do is add `set
+spell` within your **.vimrc** file (which is generally located in your
+home directory if not you can always create one). This will highlight
+all the words which are misspelled. 
 
-# Resources:
+**Searching for misspelled words:**
+
+`[s` is used to find misspelled words after the cursor (Forward
+Search). 
+
+`s]` is used to find misspelled words before the cursor (Backward
+Search).
+
+**Adding Custom words to Dictionary:**
+
+To add custom words first of all we need to create a custom spell file
+we do this by adding following to your **.vimrc**. 
+
+``` vim
+
+mkdir -p ~/.vim/spell
+set spell spelllang=en_us
+set spellfile=~/.vim/spell/en.utf-8.add
+
+```
+`zg` -> Used to add custom words to the dictionary 
+`z=` -> Offers autocomplete suggestions with correct spellings. 
+`zug` -> You can also remove words from the dictionary. 
+
 
 ## Twitchtubers: 
 - thePrimegan 

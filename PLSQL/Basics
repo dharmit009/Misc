@@ -1,0 +1,20 @@
+declare 
+pi constant number := 3.141592654;
+r number(5, 2);
+dia number (5,2);
+cir number (5,2);
+area number (7,2);
+
+BEGIN
+r:=9.5;
+dia:=r*2;
+cir:=2*pi*r;
+area:=pi*r*r;
+
+dbms_output.put_line('Radius: ' || r);
+dbms_output.put_line('Diameter: ' || dia);
+dbms_output.put_line('Circumference: ' || cir);
+dbms_output.put_line('Area: ' || area);
+
+
+END;
