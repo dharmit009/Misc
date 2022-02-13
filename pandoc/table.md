@@ -1,4 +1,4 @@
-  .      Tweedledee       Tweedledum
+	.      Tweedledee       Tweedledum
 	--------   --------------   ----------------
 	Age        14               14
 	Height     3'2"             3'2"
@@ -7,3 +7,4 @@
 	---------  --------------   ----------------
 
 	Table: T.-T. Data
+
