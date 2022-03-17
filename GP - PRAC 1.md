@@ -16,6 +16,7 @@
 **Interface:**
 
 **Right hand lower corner:** Properties Pane. 
+
 **Right hand upper corner:** Solution Explorer. 
 
 ----
@@ -30,13 +31,15 @@ click on project name again -> Add references -> COM REFERENCES -> Add directx l
 **What are references?**
 
 References are core libraries which are required for proper functioning (packages). 
+
 Import all the directx packages. if they are added they will be visible in your solution explorer. 
+
 After that go to properties select build/pane .... check your properties there will a event button go through the pane and find out appearance -> paint -> format
 
 change the value Form1_Paint
 
-replace the code which was provided by the mam ... 
+Replace the code which was provided by the mam ... 
 
-the namespace value should be same as your project namespace ... 
+The namespace value should be same as your project namespace ... 
 
 To run the code 
