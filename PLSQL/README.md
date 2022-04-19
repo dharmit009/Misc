@@ -1,6 +1,8 @@
 ----
 
-# Initial Steps:
+# ADBMS CHEATSHEET ...
+
+## Initial Steps:
 
 ```sql
 set serveroutput on
@@ -100,13 +102,13 @@ DROP table emp
 
 ## Triggers:
 
-This will create DEPT table ...
+This will create `DEPT` table ...
 
 ``` sql
 create table dept(did int primary key, dname varchar(20), thrs int);
 ```
 
-This will create EMP table ...
+This will create `EMP` table ...
 
 ``` sql
 create table emp(eid int primary key, ename varchar(20), ehrs int,
@@ -139,13 +141,6 @@ insert into dept values(&did, '&dname', &thrs);
 insert into emp values(&eid, '&ename', &hrs, &edid);
 ```
 
-## Update Trigger
-
-**1 UPDATE:**
-
-**2 UPDATES:**
-
-
 ## Delete Trigger ...
 
 ``` sql
@@ -165,3 +160,26 @@ end;
 delete from emp where eid=1
 ```
 
+## PLSQL EXAMPLE:
+
+```sql
+declare
+pi constant number := 3.141592654;
+r number(5, 2);
+dia number (5,2);
+cir number (5,2);
+area number (7,2);
+
+BEGIN
+r:=9.5;
+dia:=r*2;
+cir:=2*pi*r;
+area:=pi*r*r;
+
+dbms_output.put_line('Radius: ' || r);
+dbms_output.put_line('Diameter: ' || dia);
+dbms_output.put_line('Circumference: ' || cir);
+dbms_output.put_line('Area: ' || area);
+
+END;
+```
