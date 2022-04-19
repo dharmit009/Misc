@@ -1,6 +1,25 @@
 ----
 
-# Temporal Database
+# Initial Steps:
+
+```sql
+set serveroutput on
+```
+
+## Horizontal Fragmentation:
+
+``` sql
+select * from employee where eadd = 'thane';
+```
+
+## Vertical Fragmentation:
+
+``` sql
+select ename, eadd from employee;
+
+```
+
+## Temporal Database
 
 ```sql
 create table emp (empid varchar2(20) primary key, empname varchar2(20), jdate date, rdate date);
@@ -26,7 +45,7 @@ update emp set jdate=to_date('01-01-2001', 'DD-MM-YYYY') where empid=1;
 ```
 ----
 
-# Country Table:
+## Country Table:
 
 ```sql
 create table country (cid int, cname varchar(30), ctime date);
@@ -46,7 +65,7 @@ select * from country where ctime=to_date('13:30', 'hh24:mi');
 
 ----
 
-# Direct Multiplication:
+## Direct Multiplication:
 
 The below line will create a new column as total which will hold
 multiplication of (no_of_shares and * price_per_share)
@@ -79,7 +98,7 @@ DROP table emp
 
 ----
 
-# Triggers:
+## Triggers:
 
 This will create DEPT table ...
 
