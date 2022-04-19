@@ -1,12 +1,13 @@
 ----
 
-# ADBMS CHEATSHEET ...
+# ADBMS CHEAT SHEET ...
 
 ## Initial Steps:
 
 ```sql
 set serveroutput on
 ```
+----
 
 ## Horizontal Fragmentation:
 
@@ -20,6 +21,7 @@ select * from employee where eadd = 'thane';
 select ename, eadd from employee;
 
 ```
+----
 
 ## Temporal Database
 
@@ -81,7 +83,6 @@ from shares where cname='google';
 select min(price_per_share), max(price_per_share), max(price_per_share)
 from shares;
 ```
-
 
 ``` sql
 select trans_time from shares where trans_time between to_date('11:00', 'hh24:mi')
@@ -159,6 +160,7 @@ end;
 ```sql
 delete from emp where eid=1
 ```
+----
 
 ## PLSQL EXAMPLE:
 
