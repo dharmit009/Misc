@@ -8,8 +8,7 @@ create table emp (empid varchar2(20) primary key, empname varchar2(20), jdate da
 ```
 
 ```sql
-insert into emp values(1, 'bency', to_date('07-08-1993', 'DD-MM-YY'),
-to_date('20-10-2025', 'DD-MM-YY'));
+insert into emp values(1, 'bency', to_date('07-08-1993', 'DD-MM-YY'), to_date('20-10-2025', 'DD-MM-YY'));
 ```
 
 ## Multiple Inputs
