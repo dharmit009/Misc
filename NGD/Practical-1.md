@@ -53,9 +53,33 @@ Used to create collection users.
 for (var i = 1; i <=20; i++) db.users.insert({"fname": "test" + i, "age":10+i, "gender":"f", "country":"India"})
 ```
 
+This is just a simple for loop to insert values in your mongo document. 
+
 ## Explicit Insert:
 
-db.actors.insert("_id":10, "fname": "explicit", lname: "id")
+* `db.actors.insert("_id":10, "fname": "explicit", lname: "id")`
+
+This will explicitly insert the value with `_id` of 10, `fname` as "explicit" and `lname` as "id".
+
+## Update Command:
+
+* `db.actors.update({"Gender": "M"}, {$set: {"Country":"UK"}})`
+
+This will set country as UK for the first male in the document. 
+
+* `db.actors.update({"Gender":"m"}, {$set: {"country": "UK" }}), {multi:true}`
+
+If you want to apply it to multiple documents then you will need to use `multi` command as `true`. 
+
+## Find Specific data entry:
+
+* `db.actors.find({"_id": 24})`
+
+This is equvivalent statement of `select * from tableName`
+
+* `db.actors.find({"gender": "m"})`
+
+This will list all the entries with gender = m.
 
 **Program Flow:**
 
@@ -69,9 +93,10 @@ db.actors.insert("_id":10, "fname": "explicit", lname: "id")
 1. for (var i = 1; i <=20; i++) db.users.insert({"fname": "test" + i, "age":10+i, "gender":"f", "country":"India"})
 1. db.actors.find()
 1. db.actors.insert("_id":10, "fname": "explicit", lname: "id")
+1. db.actors.find({"gender":"M"})
 
 **How to troubleshoot?**
 
-* Open services then go to mongodb services and make sure the service is running.
+* Open services on windows then go to mongodb services and make sure the service is running.
 
 
