@@ -93,7 +93,9 @@ This will list all the entries with gender = m.
 1. for (var i = 1; i <=20; i++) db.users.insert({"fname": "test" + i, "age":10+i, "gender":"f", "country":"India"})
 1. db.actors.find()
 1. db.actors.insert("_id":10, "fname": "explicit", lname: "id")
-1. db.actors.find({"gender":"M"})
+1. db.actors.find({"gender":"m"})
+1. db.actors.update({"gender":"m"}, {$set: {"country": "UK" }})
+1. db.actors.update({"gender":"m"}, {$set: {"country": "UK" }}), {multi:true}
 
 **How to troubleshoot?**
 
