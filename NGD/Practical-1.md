@@ -50,9 +50,12 @@ Used to create collection users.
 ## Multiple Inputs:
 
 ``` mongodb
-for (var i = 1, i <=20, i++) db.users.insert({fname: "test" + i, "age":10+i, "gender":"f", "country":"India"})
-
+for (var i = 1; i <=20; i++) db.users.insert({"fname": "test" + i, "age":10+i, "gender":"f", "country":"India"})
 ```
+
+## Explicit Insert:
+
+db.actors.insert("_id":10, "fname": "explicit", lname: "id")
 
 **Program Flow:**
 
@@ -63,6 +66,9 @@ for (var i = 1, i <=20, i++) db.users.insert({fname: "test" + i, "age":10+i, "ge
 1. user1={fname: "walter", lname: "white", age:29, gender: "m", country: "us"}
 1. db.actors.insert(user1)
 1. db.actors.find()
+1. for (var i = 1; i <=20; i++) db.users.insert({"fname": "test" + i, "age":10+i, "gender":"f", "country":"India"})
+1. db.actors.find()
+1. db.actors.insert("_id":10, "fname": "explicit", lname: "id")
 
 **How to troubleshoot?**
 
