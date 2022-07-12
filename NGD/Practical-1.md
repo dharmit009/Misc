@@ -36,7 +36,7 @@ Mongod is a daemon process which runs in background. The main purpose of this da
 
 use to find the document.
 
-* `db.insert(varName)`
+* `db.documentName.insert(varName)`
 ```mongodb
 user1 = {fname:"user1", Lname:"test", age:29, Gender:"M", Country:"US"}
 
@@ -47,7 +47,25 @@ db.insert(user1)
 
 Used to create collection users.
 
+## Multiple Inputs:
+
+``` mongodb
+for (var i = 1, i <=20, i++) db.users.insert({fname: "test" + i, "age":10+i, "gender":"f", "country":"India"})
+
+```
+
+**Program Flow:**
+
+1. mongod
+1. mongo
+1. use test
+1. db.createCollection("actors")
+1. user1={fname: "walter", lname: "white", age:29, gender: "m", country: "us"}
+1. db.actors.insert(user1)
+1. db.actors.find()
 
 **How to troubleshoot?**
 
 * Open services then go to mongodb services and make sure the service is running.
+
+
