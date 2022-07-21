@@ -38,9 +38,9 @@ use to find the document.
 
 * `db.documentName.insert(varName)`
 ```mongodb
-user1 = {fname:"user1", Lname:"test", age:29, Gender:"M", Country:"US"}
+user1 = {"fname":"user1", "Lname":"test", "age":29, "Gender":"M", "Country":"US"}
 
-db.insert(user1)
+db.documentName.insert(user1)
 
 ```
 * `db.createCollection("users")`
