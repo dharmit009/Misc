@@ -6,7 +6,7 @@ First, move the `restaurants.json` file from your downloads folder to `C:\Progra
 
 ```mongodb
 
-mongoimport --host localhost --db demo --collection tyit < restaurants.json
+mongoimport --host localhost --db demo --collection tyit < path to restaurants.json file
 
 ```
 
