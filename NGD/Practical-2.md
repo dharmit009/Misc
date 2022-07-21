@@ -20,3 +20,10 @@ db.tyit.find().pretty()
 
 ```
 
+**Q1. Write a MongoDB query to display all the documents in the collection restaurants.**
+
+> db.tyit.find()
+
+**Q2. Write a MongoDB query to display the fields , restaurant_id, name, borough and cuisine for all the documents in the collection restaurant.**
+
+> db.tyit.find({}, {restaurant_id: 1, name:1, borough:1, cuisine:1, _id:0})
