@@ -8,3 +8,14 @@ Bronx.
 **
 
 > db.tyit.find({"borough":"Bronx"}, {"name":1, _id:0, "borough":1}).limit(5); 
+
+**Q7. Write a MongoDB query to display the next 5 restaurants after skipping first 5 
+which are in the borough Bronx**
+
+> db.tyit.find({"borough":"Bronx"}, {"name":1, _id:0, "borough":1}).skip(5).limit(5); 
+
+**Q8. Write a MongoDB query to find the restaurants who achieved a score more than 
+90**
+
+> db.tyit.find({})
+
