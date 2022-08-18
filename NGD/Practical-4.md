@@ -22,5 +22,3 @@ which are in the borough Bronx.**
 80 but less than 100.**
 
 > db.tyit.find({"grades.score":{$gt:80, $lt:100}}, {"_id":0, "name":1, "grades.score":1});
-
-
