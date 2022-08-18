@@ -17,5 +17,5 @@ which are in the borough Bronx**
 **Q8. Write a MongoDB query to find the restaurants who achieved a score more than 
 90**
 
-> db.tyit.find({})
+> db.tyit.find({"grades.score":{$gt:90}}, {"_id":0, "name":1, "grades.score":1})                                                                                                                                                                             
 
