@@ -1,0 +1,3 @@
+
+First you will need to install emacs as requirement to install **Doom Emacs**. 
+> sudo apt install emacs
